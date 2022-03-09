@@ -6,6 +6,7 @@ import TestFile from "./components/TestFile";
 import NewExpense from "./components/NewExpense/NewExpense";
 import ExpenseFilter from "./components/ExpenseFilter";
 import React, { useState } from "react";
+import ExpenseChart from "./components/NewExpense/ExpenseChart";
 
 const dummy_expenses = [
   {
@@ -67,6 +68,7 @@ function App() {
           selected={filteredYear}
           onChangeFilter={filterChangeHandler}
         />
+        <ExpenseChart filteredExpenses={filterbyyear}></ExpenseChart>
         {expenseContent}
       </Card>
     </div>
