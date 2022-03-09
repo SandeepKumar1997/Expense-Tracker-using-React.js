@@ -1,0 +1,41 @@
+body{
+ background-color: #000000;
+ color:white;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+ padding:0.5rem;
+ align-items: center;
+ background-color: #191919;
+ margin:0.8rem 0;
+ border-radius: 1rem;
+ border: 1px solid white;
+ color: white;
+ font-weight: bold;
+ width: 80%;
+}
+
+.price-tab{
+ background-color: black;
+ color: white;
+ border-radius: 0.5rem;
+ border: 3px solid white;
+ height: 5rem;
+ width: 5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.item-data{
+ display: flex;
+ justify-content: flex-start;
+ font-size: 1.5rem;
+ width: 60%;
+}
+
+.item-data p{
+ width: 100%;
+}
